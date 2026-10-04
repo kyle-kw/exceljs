@@ -343,7 +343,7 @@ export interface CellRichTextValue {
 }
 
 export interface CellHyperlinkValue {
-	text: string;
+	text: string | CellRichTextValue;
 	hyperlink: string;
 	tooltip?: string;
 }
